@@ -276,8 +276,10 @@ a:hover{
 
 
  .gallery, .video{	
- 	color: #fff;
- 	background-color: #4a76a8;        
+/* 	color: #fff;
+ 	background-color: #4a76a8;  */ 
+    color: #262626;
+    background-color: #fff;       
  	min-height: 100px;
   	overflow: hidden;
  	}
