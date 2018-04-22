@@ -425,3 +425,62 @@ hr {
         background-attachment: scroll;
     }
 }
+@media (max-width: 767px) {
+    .main-block__text h1{
+        font-size: 65px;
+    }
+    .about-us{
+        min-height: 500px;
+    }
+    .about-us__text{
+        top: 15%;
+        width: 90%;
+        left: 5%;
+    }
+        .about-us__text p{
+        font-size: 18px;
+        /*line-height: 2;*/
+        /*letter-spacing: 2px;*/
+        }
+        .about-us__text h2{
+        font-size: 20px;
+        padding-bottom: 15px;
+        }
+
+
+    .program__text{
+        padding: 3em 0;
+    }
+    .program h2{
+            font-size: 30px;
+            margin-bottom: 0.5em; 
+    }
+    .program p{
+    font-size: 18px;
+    padding:0 20px;
+    }
+
+    .info__text{
+        position: absolute;
+        top: 10%;
+        width: 90%;
+        left: 5%;
+    }
+    .info__text p{        
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .info{
+        min-height: 400px;
+    }
+
+
+.text-50-50 {
+    min-height:200px;
+}
+
+    .map h1{  
+    font-size: 32px;
+        }
+
+}
